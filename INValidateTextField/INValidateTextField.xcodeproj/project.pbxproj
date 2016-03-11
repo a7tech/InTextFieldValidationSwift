@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A04201B1C928523009C0326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A04201A1C928523009C0326 /* AppDelegate.swift */; };
+		8A04201D1C928523009C0326 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A04201C1C928523009C0326 /* ViewController.swift */; };
+		8A0420201C928523009C0326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A04201E1C928523009C0326 /* Main.storyboard */; };
+		8A0420221C928524009C0326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0420211C928524009C0326 /* Assets.xcassets */; };
+		8A0420251C928524009C0326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0420231C928524009C0326 /* LaunchScreen.storyboard */; };
+		8A0420301C928524009C0326 /* INValidateTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A04202F1C928524009C0326 /* INValidateTextFieldUITests.swift */; };
+		8A04204C1C9285A0009C0326 /* TextFieldValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A04203D1C9285A0009C0326 /* TextFieldValidation.swift */; };
+		8A0420551C9285A0009C0326 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0420461C9285A0009C0326 /* ValidationError.swift */; };
+		8A0420561C9285A0009C0326 /* ValidationErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0420471C9285A0009C0326 /* ValidationErrorType.swift */; };
+		8A0420571C9285A0009C0326 /* ValidationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0420481C9285A0009C0326 /* ValidationFactory.swift */; };
+		8A0420581C9285A0009C0326 /* ValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0420491C9285A0009C0326 /* ValidationRule.swift */; };
+		8A0420591C9285A0009C0326 /* ValidationRuleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A04204A1C9285A0009C0326 /* ValidationRuleType.swift */; };
+		8A04205A1C9285A0009C0326 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A04204B1C9285A0009C0326 /* Validator.swift */; };
+		8A04205C1C929584009C0326 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A04205B1C929584009C0326 /* Validation.swift */; };
+		8A04205E1C92A678009C0326 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A04205D1C92A678009C0326 /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A04202C1C928524009C0326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A04200F1C928523009C0326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A0420161C928523009C0326;
+			remoteInfo = INValidateTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A0420171C928523009C0326 /* INValidateTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INValidateTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A04201A1C928523009C0326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A04201C1C928523009C0326 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A04201F1C928523009C0326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A0420211C928524009C0326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A0420241C928524009C0326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A0420261C928524009C0326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A04202B1C928524009C0326 /* INValidateTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INValidateTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A04202F1C928524009C0326 /* INValidateTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INValidateTextFieldUITests.swift; sourceTree = "<group>"; };
+		8A0420311C928524009C0326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A04203D1C9285A0009C0326 /* TextFieldValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldValidation.swift; sourceTree = "<group>"; };
+		8A0420461C9285A0009C0326 /* ValidationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
+		8A0420471C9285A0009C0326 /* ValidationErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationErrorType.swift; sourceTree = "<group>"; };
+		8A0420481C9285A0009C0326 /* ValidationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFactory.swift; sourceTree = "<group>"; };
+		8A0420491C9285A0009C0326 /* ValidationRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationRule.swift; sourceTree = "<group>"; };
+		8A04204A1C9285A0009C0326 /* ValidationRuleType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationRuleType.swift; sourceTree = "<group>"; };
+		8A04204B1C9285A0009C0326 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		8A04205B1C929584009C0326 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		8A04205D1C92A678009C0326 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A0420141C928523009C0326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0420281C928524009C0326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A04200E1C928523009C0326 = {
+			isa = PBXGroup;
+			children = (
+				8A0420191C928523009C0326 /* INValidateTextField */,
+				8A04202E1C928524009C0326 /* INValidateTextFieldUITests */,
+				8A0420181C928523009C0326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A0420181C928523009C0326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A0420171C928523009C0326 /* INValidateTextField.app */,
+				8A04202B1C928524009C0326 /* INValidateTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A0420191C928523009C0326 /* INValidateTextField */ = {
+			isa = PBXGroup;
+			children = (
+				8A04203B1C9285A0009C0326 /* Source */,
+				8A04201A1C928523009C0326 /* AppDelegate.swift */,
+				8A04201C1C928523009C0326 /* ViewController.swift */,
+				8A04201E1C928523009C0326 /* Main.storyboard */,
+				8A0420211C928524009C0326 /* Assets.xcassets */,
+				8A0420231C928524009C0326 /* LaunchScreen.storyboard */,
+				8A0420261C928524009C0326 /* Info.plist */,
+			);
+			path = INValidateTextField;
+			sourceTree = "<group>";
+		};
+		8A04202E1C928524009C0326 /* INValidateTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A04202F1C928524009C0326 /* INValidateTextFieldUITests.swift */,
+				8A0420311C928524009C0326 /* Info.plist */,
+			);
+			path = INValidateTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		8A04203B1C9285A0009C0326 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8A04205D1C92A678009C0326 /* logo.png */,
+				8A04203C1C9285A0009C0326 /* Library */,
+				8A0420461C9285A0009C0326 /* ValidationError.swift */,
+				8A0420471C9285A0009C0326 /* ValidationErrorType.swift */,
+				8A0420481C9285A0009C0326 /* ValidationFactory.swift */,
+				8A0420491C9285A0009C0326 /* ValidationRule.swift */,
+				8A04204A1C9285A0009C0326 /* ValidationRuleType.swift */,
+				8A04204B1C9285A0009C0326 /* Validator.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8A04203C1C9285A0009C0326 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8A04205B1C929584009C0326 /* Validation.swift */,
+				8A04203D1C9285A0009C0326 /* TextFieldValidation.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A0420161C928523009C0326 /* INValidateTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0420341C928524009C0326 /* Build configuration list for PBXNativeTarget "INValidateTextField" */;
+			buildPhases = (
+				8A0420131C928523009C0326 /* Sources */,
+				8A0420141C928523009C0326 /* Frameworks */,
+				8A0420151C928523009C0326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = INValidateTextField;
+			productName = INValidateTextField;
+			productReference = 8A0420171C928523009C0326 /* INValidateTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A04202A1C928524009C0326 /* INValidateTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0420371C928524009C0326 /* Build configuration list for PBXNativeTarget "INValidateTextFieldUITests" */;
+			buildPhases = (
+				8A0420271C928524009C0326 /* Sources */,
+				8A0420281C928524009C0326 /* Frameworks */,
+				8A0420291C928524009C0326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A04202D1C928524009C0326 /* PBXTargetDependency */,
+			);
+			name = INValidateTextFieldUITests;
+			productName = INValidateTextFieldUITests;
+			productReference = 8A04202B1C928524009C0326 /* INValidateTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A04200F1C928523009C0326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Inwizards;
+				TargetAttributes = {
+					8A0420161C928523009C0326 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8A04202A1C928524009C0326 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8A0420161C928523009C0326;
+					};
+				};
+			};
+			buildConfigurationList = 8A0420121C928523009C0326 /* Build configuration list for PBXProject "INValidateTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A04200E1C928523009C0326;
+			productRefGroup = 8A0420181C928523009C0326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A0420161C928523009C0326 /* INValidateTextField */,
+				8A04202A1C928524009C0326 /* INValidateTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A0420151C928523009C0326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A04205E1C92A678009C0326 /* logo.png in Resources */,
+				8A0420251C928524009C0326 /* LaunchScreen.storyboard in Resources */,
+				8A0420221C928524009C0326 /* Assets.xcassets in Resources */,
+				8A0420201C928523009C0326 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0420291C928524009C0326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A0420131C928523009C0326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A04204C1C9285A0009C0326 /* TextFieldValidation.swift in Sources */,
+				8A04201D1C928523009C0326 /* ViewController.swift in Sources */,
+				8A0420571C9285A0009C0326 /* ValidationFactory.swift in Sources */,
+				8A0420551C9285A0009C0326 /* ValidationError.swift in Sources */,
+				8A0420591C9285A0009C0326 /* ValidationRuleType.swift in Sources */,
+				8A04201B1C928523009C0326 /* AppDelegate.swift in Sources */,
+				8A04205A1C9285A0009C0326 /* Validator.swift in Sources */,
+				8A0420561C9285A0009C0326 /* ValidationErrorType.swift in Sources */,
+				8A04205C1C929584009C0326 /* Validation.swift in Sources */,
+				8A0420581C9285A0009C0326 /* ValidationRule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0420271C928524009C0326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0420301C928524009C0326 /* INValidateTextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A04202D1C928524009C0326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A0420161C928523009C0326 /* INValidateTextField */;
+			targetProxy = 8A04202C1C928524009C0326 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A04201E1C928523009C0326 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A04201F1C928523009C0326 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A0420231C928524009C0326 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A0420241C928524009C0326 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A0420321C928524009C0326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A0420331C928524009C0326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A0420351C928524009C0326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = INValidateTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inw.INValidateTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A0420361C928524009C0326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = INValidateTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inw.INValidateTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A0420381C928524009C0326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = INValidateTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inw.INValidateTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = INValidateTextField;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8A0420391C928524009C0326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = INValidateTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inw.INValidateTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = INValidateTextField;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A0420121C928523009C0326 /* Build configuration list for PBXProject "INValidateTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0420321C928524009C0326 /* Debug */,
+				8A0420331C928524009C0326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A0420341C928524009C0326 /* Build configuration list for PBXNativeTarget "INValidateTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0420351C928524009C0326 /* Debug */,
+				8A0420361C928524009C0326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A0420371C928524009C0326 /* Build configuration list for PBXNativeTarget "INValidateTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0420381C928524009C0326 /* Debug */,
+				8A0420391C928524009C0326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A04200F1C928523009C0326 /* Project object */;
+}
